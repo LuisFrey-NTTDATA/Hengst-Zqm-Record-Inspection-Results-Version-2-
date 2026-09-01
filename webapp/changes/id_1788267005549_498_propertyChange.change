@@ -1,0 +1,29 @@
+{
+  "changeType": "propertyChange",
+  "reference": "customer.zqm.recinspresult",
+  "namespace": "apps/customer.zqm.recinspresult/changes/",
+  "creation": "2026-09-01T12:50:10.209Z",
+  "projectId": "customer.zqm.recinspresult",
+  "packageName": "$TMP",
+  "support": {
+    "generator": "@sap-ux/control-property-editor",
+    "sapui5Version": "1.136.10",
+    "command": "property"
+  },
+  "originalLanguage": "EN",
+  "layer": "CUSTOMER_BASE",
+  "fileType": "change",
+  "fileName": "id_1788267005549_498_propertyChange",
+  "content": {
+    "property": "ignoredFields",
+    "newValue": "Update_mc,to_InspectionResultValue_oc,InspectionLot,InspPlanOperationInternalID,InspectionCharacteristic,MaterialSample,InspectionOperation,OperationText,Material,MaterialName,InspSpecLowerLimit,InspSpecUpperLimit,Inspector,InspectionSpecification,InspectionSpecificationPlant,InspectionSpecificationVersion,InspCharcRecgUITemplateID,InspectionSpecificationText,InspSampleValuationRule,InspectionResultMeanValue,InspSpecTotalDecimalPlaces,InspectionValuationResult,CharacteristicAttributeCode,CharacteristicAttributeCodeGrp,CharcAttributeCodeVers,InspSpecRecordingType,InspSpecRecgTypeIsSingleRslt,InspSpecCharcCategory,InspSpecResultCalculation,InspSpecIsLongTermInspection,InspSpecHasLowerLimit,InspSpecHasUpperLimit,SelectedCodeSetText,InspSpecIsQuantitative,UnitOfMeasureTechnicalName,InspSpecDecimalPlaces,InspSpecHasTargetValue,InspSpecTargetValue,InspRsltAboveToleranceValsNmbr,InspRsltBelowToleranceValsNmbr,InspResultValidValuesNumber,InspRsltNonconformingValsNmbr,InspectionResultStatusText,InspectionResultStatus,InspectionResultText,InspSubsetResultLongText,InspCharcIsNotPlanned,InspectionValuationResultText,InspSpecIsMeasuredValueRqd,ChangedDateTime,InspectionSpecificationUnit,SelectedCodeSet,SelectedCodeSetPlant,InspSpecDefectCodeGrpRejection,InspSpecDefectCodeRejection,InspSpecDefectCodeGrpRjcnLower,InspSpecDefectCodeRjcnLower,InspSpecDefectCodeGrpRjcnUpper,InspSpecDefectCodeRjcnUpper,InspSpecVersionLongText,InspMethodVersionLongTxt,BOOCharcHasInspSpecReference,CharacteristicAttributeCatalog,InspectionMethod,InspectionMethodVersion,InspectionMethodText,InspectionMethodPlant,InspectionMethodIsVisible,InspMethodKeyWithText,InspCharacteristicSampleSize,InspSpecSampleQuantityFactor,InspectionCharacteristicStatus,InspSpecControlIndicators,InspSpecIsSelectedSetRequired,InspSpecFormattedSampleText,SamplingProcedure,BOOCharcSampleQuantity,InspCharacteristicSampleUnit,QltyCtrlChartAggrgnCriterion,InspSpecIsSamplingProcedRqd,InspSpecIsControlChartUsed,InspSpecIsLowerLimitRequired,InspSpecTransferType,InspSpecIsUpperLimitRequired,InspSpecIsTargetValueInLimit,InspSpecIsDefectsRecgAutomatic,InspectionSubsetInternalID,InspResultVariance,InspResultHasVariance,InspectionResultAttributeText,InspectionResultAttribute,InspectionResultOrigin,InspectionResultOriginText,InspRsltFreeDefinedTestEquip,QualityControlChart,CtrlChartLowerActionLmtQty,CtrlChartLowerWarningLmtQty,CtrlChartUpperActionLmtQty,CtrlChartUpperWarningLmtQty,CtrlChartHasLowerActionLimit,CtrlChartHasLowerWarningLimit,CtrlChartHasUpperActionLimit,CtrlChartHasUpperWarningLimit,QualityControlChartStatus,InspSpecCharcIsAutoValuated,InspCharcProdnRsceToolIsAssgd,InspLotIsSerialNmbrPossible,InspLotHasSubsets,SerialNumberProfile,BillOfOperationsGroup,BillOfOperationsType,BillOfOperationsUsage,BillOfOperationsVariant,InspSpecHasSamplingProcedure,InspSpecHasControlChart,InspResultIsDocumentationRqd,Plant,InspectionLotType,WorkCenter,MatlQualityAuthorizationGroup,InspCharIsSkipped,InspSampleAcceptanceNumber,InspSampleRejectionNumber,InspCharcIsLocked,InspSpecHasNoTargetValue,InspSpecHasNoLowerLimit,InspSpecHasNoUpperLimit,InspSpecSelectedSetIsNotRqd,CtrlChartHasNoLowerActionLimit,CtrlChartHasNoLowerWarningLmt,CtrlChartHasNoUpperActionLimit,CtrlChartHasNoUpperWarningLmt,InspectionResultHasLongText,InspLotDigitalSgntrResultsRecg,InspLotDigitalSgntrInUsgeDcsn,SamplingProcedureInspSubset,InspectionSampleSize,Batch,InspectionScope,InspLotUsageDecisionValuation,InspectionLotOrigin,InspSpecHasFormula,InspSpecFormula1,InspSpecFormula2,InspResultNmbrOfRecordedRslts,InspResultIsCompletionForced,zInspSpecImportanceCode,zInspSpecImportanceCodeText"
+  },
+  "texts": {},
+  "selector": {
+    "id": "i2d.qm.insprslts.records1::sap.suite.ui.generic.template.ObjectPage.view.Details::InspectionLot--InspCharacteristicsTable",
+    "type": "sap.ui.comp.smarttable.SmartTable",
+    "idIsLocal": false
+  },
+  "dependentSelector": {},
+  "jsOnly": false
+}
