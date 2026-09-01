@@ -1,0 +1,14 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m">
+    <Dialog id="documentDialog" title="Document">
+        <content>
+            <VBox class="sapUiSmallMargin">
+                <Text text="Hier kommt später die Tabelle rein."/>
+            </VBox>
+        </content>
+        <beginButton>
+            <Button
+                text="Schließen"
+                press="extension.customer.zqm.recinspresult.CustAction.onCloseDocumentDialog"/>
+        </beginButton>
+    </Dialog>
+</core:FragmentDefinition>
