@@ -1,0 +1,30 @@
+{
+  "changeType": "addXML",
+  "reference": "customer.zqm.recinspresult",
+  "namespace": "apps/customer.zqm.recinspresult/changes/",
+  "creation": "2026-09-01T14:31:48.313Z",
+  "projectId": "customer.zqm.recinspresult",
+  "packageName": "$TMP",
+  "moduleName": "customer/zqm/recinspresult/changes/fragments/CustAction.fragment.xml",
+  "support": {
+    "generator": "@sap-ux/control-property-editor",
+    "sapui5Version": "1.136.10",
+    "command": "addXML"
+  },
+  "originalLanguage": "EN",
+  "layer": "CUSTOMER_BASE",
+  "fileType": "change",
+  "fileName": "id_1788273103173_443_addXML",
+  "content": {
+    "targetAggregation": "actions",
+    "index": 0,
+    "fragmentPath": "fragments/CustAction.fragment.xml"
+  },
+  "texts": {},
+  "selector": {
+    "id": "i2d.qm.insprslts.records1::sap.suite.ui.generic.template.ObjectPage.view.Details::InspectionLot--InspCharacteristics::SubSection",
+    "idIsLocal": false
+  },
+  "dependentSelector": {},
+  "jsOnly": false
+}

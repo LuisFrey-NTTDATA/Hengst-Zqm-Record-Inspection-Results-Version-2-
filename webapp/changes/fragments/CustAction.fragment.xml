@@ -1,0 +1,11 @@
+<!-- Use stable and unique IDs!-->
+<core:FragmentDefinition xmlns:core='sap.ui.core' xmlns='sap.m'>
+    <!-- viewName: sap.suite.ui.generic.template.ObjectPage.view.Details -->
+    <!-- controlType: sap.uxap.ObjectPageSubSection -->
+    <!-- targetAggregation: actions --> 
+    <!-- add your xml here -->
+    <Button
+        id="btnDocuments"
+        text="Documents"
+        type="Transparent"/>
+</core:FragmentDefinition>
