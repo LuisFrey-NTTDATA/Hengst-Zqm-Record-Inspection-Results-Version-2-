@@ -9,7 +9,7 @@ import Dialog from "sap/m/Dialog";
 export default class CustAction extends ControllerExtension {
   private _oDocumentDialog?: Dialog;
 
-  overrides = {
+  static overrides = {
     /**
      * Called when a controller is instantiated and its View controls (if available) are already created.
      */

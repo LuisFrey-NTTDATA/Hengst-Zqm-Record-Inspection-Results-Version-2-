@@ -3,5 +3,5 @@
         id="btnDocument"
         text="Document"
         type="Transparent"
-        press="extension.customer.zqm.recinspresult.CustAction.onOpenDocumentDialog"/>
+        press=".extension.customer.zqm.recinspresult.CustAction.onOpenDocumentDialog"/>
 </core:FragmentDefinition>

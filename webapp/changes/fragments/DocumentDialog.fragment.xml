@@ -8,7 +8,7 @@
         <beginButton>
             <Button
                 text="Schließen"
-                press="extension.customer.zqm.recinspresult.CustAction.onCloseDocumentDialog"/>
+                press="onCloseDocumentDialog"/>
         </beginButton>
     </Dialog>
 </core:FragmentDefinition>
