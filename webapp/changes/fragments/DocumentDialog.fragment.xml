@@ -1,14 +1,33 @@
 <core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m">
-    <Dialog id="documentDialog" title="Document">
+    <Dialog id="documentDialog" title="Dokumente" contentWidth="70%" contentHeight="60%">
         <content>
             <VBox class="sapUiSmallMargin">
-                <Text text="Hier kommt später die Tabelle rein."/>
+                <Table id="docTable" items="{docs>/items}">
+                    <columns>
+                        <Column><Text text="Inspection Lot"/></Column>
+                        <Column><Text text="Typ"/></Column>
+                        <Column><Text text="Dokument"/></Column>
+                        <Column><Text text="Version"/></Column>
+                        <Column><Text text="Teil"/></Column>
+                        <Column><Text text="Beschreibung"/></Column>
+                    </columns>
+                    <items>
+                        <ColumnListItem>
+                            <cells>
+                                <Text text="{docs>InspectionLot}"/>
+                                <Text text="{docs>DocumentInfoRecordDocType}"/>
+                                <Text text="{docs>DocumentInfoRecordDocNumber}"/>
+                                <Text text="{docs>DocumentInfoRecordDocVersion}"/>
+                                <Text text="{docs>DocumentInfoRecordDocPart}"/>
+                                <Text text="{docs>DocumentDescription}"/>
+                            </cells>
+                        </ColumnListItem>
+                    </items>
+                </Table>
             </VBox>
         </content>
         <beginButton>
-            <Button
-                text="Schließen"
-                press="onCloseDocumentDialog"/>
+            <Button text="Schließen" press="onCloseDocumentDialog"/>
         </beginButton>
     </Dialog>
 </core:FragmentDefinition>
